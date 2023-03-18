@@ -1,0 +1,134 @@
+body{
+    width: 80%;
+    margin: auto;
+}
+#cabecalho{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(8,26,36,255);
+}
+#cabecalho div img{
+    width: 100%;
+}
+#cabecalho div{
+    display: flex;
+    width: 30%;
+    margin: auto;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+}
+ul{
+    width: 70%;
+    display: flex;
+    list-style: none;
+    align-items: flex-end;
+    justify-content: flex-end;
+    
+}
+ul li a{
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: rgba(17,60,80,255);
+    letter-spacing: 2px;
+    padding-right: 50px;
+}
+a:hover{
+    color: white;
+    text-shadow: 1px 1px gray;
+}
+#bg-woman{
+    width: 100%;
+    height: 600px;
+}
+#porfolio{
+    width: 80%;
+    height: 700px;
+}
+#portfolio h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+}
+#portfolio p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: rgb(83, 83, 83);
+    width: 60%;
+    text-align: center;
+    margin: auto;
+    line-height: 1.5;
+}
+#galeria {
+    display: flex;
+    gap: 20px;
+    margin: 20px;
+    justify-content: center;
+}
+.galeria-card{
+    margin-top: 20px;
+}
+.galeria-titulo{
+    margin: 5px;
+    font-size: 20px;
+    text-align: center;
+    color: rgb(75, 75, 75);
+    font-weight: bold;
+}
+.galeria-texto{
+    font-size: 16px;
+    text-align: center;
+    color: rgb(134, 133, 133);
+    font-weight: bold;
+}
+#sobre{
+    background-color: #003d52;
+    width: 100%;
+    background-image: url(../img/bg_detalhe.png);
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    color: white;
+    font-weight: bold;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+#sobre h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    text-transform: uppercase;
+    padding-left: 100px;
+    font-weight: normal;
+}
+#sobre p{
+    font-family: sans-serif;
+    width: 40%;
+    padding-left: 100px;
+    line-height: 1.5;
+    padding-bottom: 30px;
+}
+#contato{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: #003d52;
+    margin: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+}
+footer{
+    letter-spacing: 2px;
+    text-align: center;
+    background-color: rgba(0,16,24,255);
+    color: rgba(18,70,119,255);
+    height: 60px;
+    line-height: 60px;
+}
+footer p{
+    font-size: 14px;
+    margin-top: 2px;
+    margin-bottom: 0px;
+}
